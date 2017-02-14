@@ -26,7 +26,7 @@ Some notes:
 
 5. I sampled the generated data to take a subset. A model was fit to the subset, and used to make predictions on the entire dataset. 
 
-Plots were generated to compare the model with observed data. 
+Plots were generated to compare the model with the observed data. 
 
 Areas of improvement:
 	
@@ -36,6 +36,6 @@ Areas of improvement:
 
 -Due to time constraints the model was tested to make sure it ran correctly, but was not given enough iterations to converge to a solution. The model should be run for more iterations
 
--The postal code shape file contained centroids, but not the actual postal code boudaries. This caused the area estimate to be inconsitent. 
+-The postal code shape file contained centroids, but not the actual postal code boudaries. This caused the area estimate to be inconsistent. 
 
--The population was spread evenly across postal codes in each FSA. The actual population for each postal code shoule be used. 
+-The population was spread evenly across postal codes in each FSA. The actual population for each postal code should be used. 
